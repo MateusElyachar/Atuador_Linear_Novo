@@ -25,28 +25,4 @@ void moverUniforme1();
 
 void moverUniforme2();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #  endif

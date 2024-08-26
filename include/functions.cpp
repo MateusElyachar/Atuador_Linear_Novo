@@ -535,16 +535,16 @@ void moverUniforme2(){//função que muda o modo de aceleração do motor
 
 void subsidencia() { // Função que movimenta o motor para frente e para trás (2 voltas completas)
     // Configura a velocidade máxima e a aceleração do motor de passo
-  stepper.setMaxSpeed(60000);
-  stepper.setAcceleration(3600000);
+  stepper1.setMaxSpeed(60000);
+  stepper1.setAcceleration(3600000);
 
   // Movimento no sentido positivo
-  stepper.moveTo(1200);
-  stepper.runToPosition();
+  stepper1.moveTo(1200);
+  stepper1.runToPosition();
   delay(50); 
 
   // Movimento no sentido negativo
-  stepper.moveTo(-1200);
-  stepper.runToPosition();
+  stepper1.moveTo(-1200);
+  stepper1.runToPosition();
   delay(50);    
 }
